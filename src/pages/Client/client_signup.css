@@ -1,0 +1,175 @@
+.bodyPage_SignUp {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+}
+
+.blankPageTop_SignUp {
+  padding-top: 700px;
+}
+
+.blankPageBottom_SignUp {
+  padding-bottom: 5%;
+}
+
+.ClientSignUpMain {
+  float: left;
+  /* padding-top: 20px; */
+  /* height: 100%; */
+  padding-left: 100px;
+}
+
+.text_SignUp {
+  text-align: center;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 73px;
+}
+
+.text_TagLine_SignUp {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #747474;
+}
+
+.text_Labels_SignUp {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+
+  color: #747474;
+}
+
+.text_LabelR_SignUp {
+  font-family: "Roboto";
+
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.button_LogIn_SignUp {
+  width: 200px;
+  height: 40px;
+  background: #f7bc50;
+  border: 3px solid #ffffff;
+  border-radius: 15px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button_SignUp_SignUp {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 40px;
+  background: #f7bc50#ffffff;
+  border: 3px solid #f7bc50;
+  border-radius: 15px;
+  color: #f7bc50;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  float: right;
+  cursor: pointer;
+
+}
+
+.button_Home_SignUp {
+  margin-top: 20px;
+  width: 200px;
+  height: 70px;
+  size: 50px;
+  color: #f7bc50;
+  float: left;
+  cursor: pointer;
+}
+
+.columnL_SignUp {
+  float: left;
+  width: 70%;
+  height: 100%;
+}
+
+.columnR_SignUp {
+  float: left;
+  height: 100%;
+  width: 30%;
+
+  background: #f7bc50;
+}
+
+.innercolumnL_SignUp {
+  width: 50%;
+  float: left;
+}
+
+.innercolumnR_SignUp {
+  width: 50%;
+  float: left;
+}
+
+.textfield_SignUp {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.textfieldL_SignUp {
+  width: 95%;
+  padding-top: 12px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.textfieldR_SignUp {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.Client_SignUpTextField{
+  margin-bottom: 20px;
+}
+
+.Client_SignUpRightPane{
+margin-top: 20px;
+}
+
+.Client_signUp_ColumnLeft{
+  justify-content: center;
+}
+
+.Client_SignUp_columnR_SignUp2{
+  float: left;
+  background: #f7bc50;
+  margin-right: 5;
+  
+}

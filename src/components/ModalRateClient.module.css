@@ -1,0 +1,47 @@
+.size {
+}
+.RateLocation {
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  left: 63%;
+  top: 18%;
+
+  background: #f7bc50;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 35px;
+
+  color: #ffffff;
+}
+.rating {
+  position: absolute;
+  width: 96px;
+  height: 35px;
+  left: 22px;
+  top: 90px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 35px;
+
+  color: #000000;
+}
+.tf {
+  position: absolute;
+  width: 23rem;
+  height: 3rem;
+  left: 22px;
+  top: 10px;
+}
+.ratebutton {
+  /* left: 15%; */
+  top: 6rem;
+}

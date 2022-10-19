@@ -1,0 +1,90 @@
+.InkME{
+    background-color: rgb(183, 121, 46);
+    
+}
+
+.HeaderInfo{
+    padding-left: 20px;
+    padding-right: 20px;
+    left: 442px;
+    top: 148px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.Deliver yInfoContainer{
+    background-color: #F7BC50;
+  border: 2px solid #000000;
+  border-radius: 13px; 
+  margin-top: 5px;
+  margin-left: 50px;
+  padding-top: -20px;
+  padding-left: 50px;
+  height: 17%;
+  width: 100%;
+  text-align: start;
+  font-size: 20px;
+}
+
+.DataAndTextLableR{
+    width: 100%;
+    height: 29px;
+    left: 82px;
+    top: 286px;
+    padding-top: 5px;
+    padding-left: 10px;
+  
+  
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24.1702px;
+    line-height: 29px;
+  
+    color: #000000;
+  }
+  .DeliveringInfoBody{
+    background: #F7BC50;
+    border: 2px solid #000000;
+    border-radius: 13px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    padding-top: -20px;
+    padding-left: 50px;
+    min-height: 550px;
+    min-width: xxx;
+    text-align: start;
+    font-size: 20px;
+  }
+
+
+.centerBut{
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    background: #000000;
+    position: relative;
+}
+
+
+.centerButton{
+    display: flex;
+    width: 100%;
+    max-width: 60%;
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 10px;
+
+}
+
+.Rider_Delivery_Item_Info{
+  padding-bottom: 20px;
+}

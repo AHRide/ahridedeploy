@@ -1,0 +1,103 @@
+.body {
+	display: flex;
+	flex-direction: column;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 1rem;
+}
+
+.bookBox {
+	display: flex;
+	width: 30rem;
+	height: 5rem;
+	justify-self: center;
+	justify-content: center;
+	align-content: center;
+	padding: 1rem;
+	padding-right: 3rem;
+	padding-left: 3rem;
+	background: #f7bc50;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 20px;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 2rem;
+	line-height: 48px;
+
+	color: #ffffff;
+}
+
+.back {
+	color: #f7bc50 !important;
+	align-self: left;
+	justify-self: space-between !important;
+}
+
+.textField1 {
+	width: 84px;
+	height: 36px;
+	padding-right: 1rem;
+}
+
+.combobox-input {
+	width: 44rem;
+	height: 3.5rem;
+	background: #ffffff;
+	border: 2px solid #000000;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+}
+
+.toInput {
+	width: 710px;
+	height: 60px;
+	background: #ffffff;
+	border: 2px solid #000000;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+}
+
+.border-box {
+	display: flex;
+	flex-direction: row;
+	background: #ffffff;
+	border: 3px solid #f7bc50;
+	border-radius: 10px;
+	justify-content: space-between;
+}
+
+.border-box .box-pad {
+	flex-direction: column;
+	padding: 1rem;
+	padding-right: 3rem;
+	padding-left: 3rem;
+}
+
+.input-textfield {
+	background: #ffffff;
+	border: 1px solid #000000;
+	border-radius: 5px;
+}
+
+.text2 {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+
+	color: #000000;
+}
+
+.note-text {
+	background: #ffffff;
+	border: 3px solid #f7bc50;
+	border-radius: 15px;
+}
+

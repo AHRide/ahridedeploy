@@ -1,0 +1,39 @@
+.modalBackground {
+  text-align: center;
+  box-sizing: border-box;
+  width: 500px;
+  height: 281px;
+  left: 287px;
+  top: 300px;
+  background: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 20px;
+}
+.modalContainer {
+  margin-top: 1rem;
+}
+.Modalrow {
+  margin-top: 1rem;
+}
+.title {
+  text-align: center;
+  color: #000000;
+}
+
+.buttonDesign {
+  margin-top: 20px;
+  background: #14ff00;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  width: 100px;
+  height: 40px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 35px;
+
+  color: #ffffff;
+}
+.text1 {
+  color: #000000;
+}

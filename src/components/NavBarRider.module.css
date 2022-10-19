@@ -1,0 +1,43 @@
+html,
+body,
+#root,
+.App {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#main {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.Navbar {
+  height: 5rem;
+  width: 100%;
+  background-color: #f7bc50;
+}
+.NavContent {
+  text-align: right;
+
+  padding-top: 25px;
+}
+.NavName {
+  padding-right: 40px;
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+}
+.logobg {
+  background-color: #f7bc50;
+  float: left;
+  height: 5rem;
+}
+.logo {
+  height: 250%;
+  width: 100%;
+  margin-top: -25%;
+  margin-left: 5%;
+}

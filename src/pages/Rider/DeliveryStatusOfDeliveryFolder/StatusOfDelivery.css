@@ -1,0 +1,15 @@
+.buttonMargine{
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+
+.button{
+  background-color: #f7bc50 !important;
+  color: white;
+}
+
+
+.Center_Content{
+  align-content:space-around;
+  background-color: aquamarine;
+}

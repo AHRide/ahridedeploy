@@ -1,0 +1,198 @@
+.body {
+	width: 100%;
+	height: 100%;
+	background: rgb(19, 200, 200);
+}
+.colLeft {
+	width: 100%;
+	height: 100px;
+	background: rgb(200, 97, 19);
+}
+
+.container fluid {
+	max-width: 100%;
+	background: rgb(19, 200, 200);
+}
+
+.RightPane {
+	background: rgb(255, 255, 255);
+	border-left: 2px solid #000000;
+	height: 600px;
+}
+.ContainerUpperRow {
+	background-color: #f7bc50;
+	border: 2px solid #000000;
+	border-radius: 13px;
+	margin-top: 5px;
+	margin-left: 50px;
+	padding-top: -20px;
+	padding-left: 50px;
+	height: 17%;
+	width: 100%;
+	text-align: start;
+	font-size: 20px;
+}
+.ContainerLowerRow {
+	background-color: #f7bc50;
+	border: 2px solid #000000;
+	border-radius: 13px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 50px;
+	padding-top: -20px;
+	padding-left: 50px;
+	min-height: 550px;
+	min-width: xxx;
+	text-align: start;
+	font-size: 20px;
+}
+
+.TextField1 {
+	background: white;
+}
+
+.WhitePayment {
+	padding-top: 10px;
+	padding-left: 30px;
+	background: white;
+	width: 100px;
+	height: 140px;
+	border: 2px solid #000000;
+	flex-direction: center;
+	border-radius: 10px;
+}
+.CenterText {
+	text-align: center;
+}
+.TextField2 {
+	width: 100%;
+	background: white;
+}
+
+.ContainerRevceiver {
+	background: white;
+}
+
+.WhiteNoteBox {
+	background: rgb(255, 255, 255);
+	border-radius: 10px;
+	border: 2px solid #000000;
+}
+
+.HeaderTextLabel {
+	width: 220px;
+	height: 29px;
+	left: 82px;
+	top: 237px;
+
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24.1702px;
+	line-height: 29px;
+
+	color: #000000;
+}
+.HeaderTextLabelSmall {
+	left: 23.97px;
+	top: 16.21px;
+
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14.0993px;
+	line-height: 17px;
+	/* identical to box height */
+
+	color: #000000;
+}
+.DataAndTextLable {
+	width: 100%;
+	height: 29px;
+	left: 82px;
+	top: 286px;
+	padding-top: 5px;
+	padding-left: 10px;
+
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.5em;
+	line-height: 29px;
+
+	color: #000000;
+}
+
+.ContainerRevceiverContact {
+	margin-top: 30px;
+	width: 500px;
+	background-color: white;
+	height: 100px;
+	padding-top: 10px;
+	border-end-end-radius: 20;
+	border-radius: 10px;
+}
+
+.StatusText {
+	width: 160px;
+	height: 61px;
+	top: 10px;
+
+	font-style: normal;
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 61px;
+	/* identical to box height */
+
+	color: #000000;
+}
+
+.boxColor {
+	align-content: center;
+	background: greenyellow;
+}
+.MarginerTop {
+	margin-top: 18px;
+}
+.InvisibleInk {
+	height: 29px;
+	color: #f7bc50;
+}
+
+.CancelButton {
+	color: #747474;
+	background-color: #747474;
+}
+.backButton {
+	margin-top: 10px;
+
+	color: #f7bc50;
+}
+.CancelButtonContainer {
+	margin-top: 10px;
+}
+.FromToContainer {
+	background: white;
+	border: 2px solid #000000;
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+}
+
+.NoteContent {
+	left: 58.01px;
+	top: 421.37px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16.1135px;
+	line-height: 20px;
+	/* identical to box height */
+
+	color: #000000;
+}
+
+.Rider_Report_Modal{
+	color: rgb(192, 87, 87);
+	background: rgb(192, 87, 87);
+}

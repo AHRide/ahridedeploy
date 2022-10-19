@@ -1,0 +1,55 @@
+.modalBackground {
+  box-sizing: border-box;
+  width: 600px;
+  min-height: xxx;
+  overflow: hidden;
+  left: 287px;
+  top: 300px;
+  background: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 20px;
+}
+.modalContainer {
+  margin-top: 1rem;
+}
+.row {
+  margin-top: 1rem;
+}
+.title {
+  text-align: center;
+  color: #000000;
+}
+.footer {
+  margin-left: 40%;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+.column {
+  text-align: center;
+}
+.text2 {
+  background: #ffffff;
+  width: 90%;
+  height: 5rem;
+}
+
+.buttonDesign {
+  text-align: center;
+  margin-top: 20px;
+  background: #ff0c0c;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  width: 100px;
+  height: 40px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 35px;
+
+  color: #ffffff;
+}
+.text1 {
+  color: #000000;
+  margin-left: -26rem;
+  font-size: 20px;
+}

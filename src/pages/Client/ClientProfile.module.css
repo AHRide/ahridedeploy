@@ -1,0 +1,86 @@
+html,
+body,
+#root,
+.App {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#main {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+.ProfileName {
+  font-family: Roboto Mono;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 106px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+}
+.DateFont {
+  margin-top: -60px;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #747474;
+  margin-bottom: 2rem;
+}
+.UpdateInfoButton {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 35px;
+  position: absolute;
+  letter-spacing: 0em;
+  left: 44%;
+  width: 200px;
+  height: 40px;
+  background: #f7bc50;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  cursor: pointer;
+}
+.Information {
+  font-size: 15px;
+  font-weight: 100;
+  margin-top: 90px;
+  margin-left: 40%;
+  text-align: left;
+}
+.LogoutInfoButton {
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  left: 80%;
+  top: 85%;
+  background: #ff0c0c;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: center;
+  cursor: pointer;
+}
+.backbutton {
+  box-sizing: border-box;
+  position: absolute;
+  width: 73px;
+  height: 0px;
+  left: 70px;
+  top: 100px;
+  color: black;
+}
+.Design {
+  float: left;
+  margin-left: -50px;
+}
