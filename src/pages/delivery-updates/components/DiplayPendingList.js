@@ -10,14 +10,13 @@ function DisplayPendingList() {
 	const { user } = useContext(UserContext);
 	useEffect(() => {
 		const interval = setInterval(() => {
-		axios
-			.get(
-				`http://localhost:3001/getBookDelivery/user/${user._profile.data.email}`
-			)
-			.then((response) => {
-				setUpdateList(response.data);
-			});
-
+			axios
+				.get(
+					`https://ahride.herokuapp.com/getBookDelivery/user/${user._profile.data.email}`
+				)
+				.then((response) => {
+					setUpdateList(response.data);
+				});
 		}, 500);
 		return () => clearInterval(interval);
 	}, [user._profile.data.email]);

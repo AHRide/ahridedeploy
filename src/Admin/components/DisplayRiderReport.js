@@ -2,8 +2,7 @@ import React, { useState, useEffect, useContext } from 'react';
 import { UserContext } from '../../contexts/user.context';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-import style from "../../Admin/AdminRider.module.css";
-
+import style from '../../Admin/AdminRider.module.css';
 
 function DisplayRiderReport() {
 	const navigate = useNavigate();
@@ -11,14 +10,11 @@ function DisplayRiderReport() {
 	const { user } = useContext(UserContext);
 	useEffect(() => {
 		const interval = setInterval(() => {
-		axios
-			.get(
-				`http://localhost:3001/getDeliveryHistory`
-			)
-			.then((response) => {
-				setUpdateList(response.data);
-			});
-
+			axios
+				.get(`https://ahride.herokuapp.com/getDeliveryHistory`)
+				.then((response) => {
+					setUpdateList(response.data);
+				});
 		}, 500);
 		return () => clearInterval(interval);
 	}, []);
@@ -30,18 +26,16 @@ function DisplayRiderReport() {
 	return (
 		<>
 			{updateList.map((lists, index) => (
-                
-			<div className={style.column3} key={index}>
-            {/* {lists.rating !== 0 || lists.rating === true && ( */}
-                <button className={style.RiderButton1} type="submit">
-                  <h1 className={style.clientName}>{lists.client_email}</h1>
-                  <h1 className={style.frombutton}>{lists.from}</h1>
-                  <h1 className={style.tobutton}>{lists.to}</h1>
-                  <h1 className={style.ratingbutton}>{lists.rating}</h1>
-                </button>
-                {/* )} */}
-                </div>
-              
+				<div className={style.column3} key={index}>
+					{/* {lists.rating !== 0 || lists.rating === true && ( */}
+					<button className={style.RiderButton1} type='submit'>
+						<h1 className={style.clientName}>{lists.client_email}</h1>
+						<h1 className={style.frombutton}>{lists.from}</h1>
+						<h1 className={style.tobutton}>{lists.to}</h1>
+						<h1 className={style.ratingbutton}>{lists.rating}</h1>
+					</button>
+					{/* )} */}
+				</div>
 			))}
 		</>
 	);

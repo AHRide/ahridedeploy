@@ -105,7 +105,7 @@ function BookDelivery() {
 	}
 
 	const bookDelivery = () => {
-		Axios.post('http://localhost:3001/bookDelivery', {
+		Axios.post('https://ahride.herokuapp.com/bookDelivery', {
 			client_email: user._profile.data.email,
 			from,
 			to,

@@ -11,13 +11,13 @@ function DisplayDeliveryList() {
 
 	useEffect(() => {
 		const interval = setInterval(() => {
-		axios
-			.get(
-				`http://localhost:3001/getDeliveryUpdates/user/${user._profile.data.email}`
-			)
-			.then((response) => {
-				setUpdateList(response.data);
-			});
+			axios
+				.get(
+					`https://ahride.herokuapp.com/getDeliveryUpdates/user/${user._profile.data.email}`
+				)
+				.then((response) => {
+					setUpdateList(response.data);
+				});
 		}, 500);
 		return () => clearInterval(interval);
 	}, [user._profile.data.email]);
@@ -48,27 +48,26 @@ function DisplayDeliveryList() {
 							<h3>{lists.to}</h3>
 						</div>
 						{!lists.sPicking && !lists.sPicked && !lists.sOTW && (
-						<div className='column-details'>
-							<h3>In Progress</h3>
-						</div>
+							<div className='column-details'>
+								<h3>In Progress</h3>
+							</div>
 						)}
 						{lists.sPicking && !lists.sPicked && !lists.sOTW && (
-						<div className='column-details'>
-							<h3>Picking Up Item</h3>
-						</div>
+							<div className='column-details'>
+								<h3>Picking Up Item</h3>
+							</div>
 						)}
 						{lists.sPicking && lists.sPicked && !lists.sOTW && (
-						<div className='column-details'>
-							<h3>Picked Up Item</h3>
-						</div>
+							<div className='column-details'>
+								<h3>Picked Up Item</h3>
+							</div>
 						)}
 						{lists.sPicking && lists.sPicked && lists.sOTW && (
-						<div className='column-details'>
-							<h3>Item On The Way</h3>
-						</div>
+							<div className='column-details'>
+								<h3>Item On The Way</h3>
+							</div>
 						)}
 					</div>
-					
 				</div>
 			))}
 		</>

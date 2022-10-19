@@ -21,15 +21,19 @@ const RiderDeliveryItemInfo = () => {
 	const { user } = useContext(UserContext);
 	useEffect(() => {
 		axios
-			.get(`http://localhost:3001/getBookDelivery/${location.state._id}/`)
+			.get(
+				`https://ahride.herokuapp.com/getBookDelivery/${location.state._id}/`
+			)
 			.then((response) => {
 				setUpdateList(response.data);
 				console.log(response.data);
 			});
-		axios.get(`http://localhost:3001/getDeliveryUpdates`).then((response) => {
-			const fetchedEmails = response.data.map((res) => res.rider_email);
-			setDeliveryList(fetchedEmails);
-		});
+		axios
+			.get(`https://ahride.herokuapp.com/getDeliveryUpdates`)
+			.then((response) => {
+				const fetchedEmails = response.data.map((res) => res.rider_email);
+				setDeliveryList(fetchedEmails);
+			});
 	}, [location.state._id]);
 
 	const onSubmit = (
@@ -46,7 +50,7 @@ const RiderDeliveryItemInfo = () => {
 			alert('You have Pending Delivery! Cannot Accept.');
 			return;
 		}
-		axios.post('http://localhost:3001/createDeliveryUpdates', {
+		axios.post('https://ahride.herokuapp.com/createDeliveryUpdates', {
 			rider_email: user._profile.data.email,
 			client_email,
 			from,
@@ -61,19 +65,21 @@ const RiderDeliveryItemInfo = () => {
 			sOTW: false,
 		});
 		axios
-			.delete(`http://localhost:3001/getBookDelivery/${location.state._id}/`)
+			.delete(
+				`https://ahride.herokuapp.com/getBookDelivery/${location.state._id}/`
+			)
 			.then((response) => {
 				console.log(response);
 			});
-			alert('Delivery Accepted');
-			navigate('/rider/status-of-delivery');
+		alert('Delivery Accepted');
+		navigate('/rider/status-of-delivery');
 	};
 
 	return (
 		<>
 			<NavBarRider />
 			{updateList.map((lists, index) => (
-				<Container fluid key={index} className="Rider_Delivery_Item_Info">
+				<Container fluid key={index} className='Rider_Delivery_Item_Info'>
 					<Row>
 						<Col>
 							<Link to='/delivery-offers'>
